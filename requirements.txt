@@ -1,2 +1,7 @@
 Django==1.7
+
+# For postgreSQL
 psycopg2==2.5.4
+
+# For memcached
+pylibmc==1.3.0
