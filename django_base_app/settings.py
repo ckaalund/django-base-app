@@ -101,9 +101,9 @@ TEMPLATE_DIRS = (
 
 
 # Django debug toolbar
-DEBUG_TOOLBAR = True
+SHOW_DEBUG_TOOLBAR = True
 
-if DEBUG_TOOLBAR:
+if SHOW_DEBUG_TOOLBAR:
     INSTALLED_APPS += ('debug_toolbar.apps.DebugToolbarConfig', 'memcache_toolbar')
 
     MIDDLEWARE_CLASSES = ('debug_toolbar.middleware.DebugToolbarMiddleware',) + MIDDLEWARE_CLASSES

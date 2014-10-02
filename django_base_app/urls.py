@@ -8,7 +8,7 @@ urlpatterns = patterns(
     url(r'^admin/', include(admin.site.urls)),
 )
 
-if settings.DEBUG_TOOLBAR:
+if settings.SHOW_DEBUG_TOOLBAR:
     import debug_toolbar
     urlpatterns += patterns(
         '',
