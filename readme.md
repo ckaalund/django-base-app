@@ -4,6 +4,9 @@ Template to start a django project using:
 * PostgreSQL
 * Memcached
 
-And served with (not in this repository)
+And served with (not in this repository):
 * uwsgi
 * nginx
+
+Extra:
+* debug_toolbar
