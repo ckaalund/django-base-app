@@ -112,7 +112,7 @@ if SHOW_DEBUG_TOOLBAR:
 
     INTERNAL_IPS = (
         '127.0.0.1',
-        '10.0.2.2',
+        '192.168.33.1',
     )
 
     DEBUG_TOOLBAR_PANELS = [
